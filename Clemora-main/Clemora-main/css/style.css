@@ -1,0 +1,276 @@
+/* default */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.html-secundario, .body-secundario {
+    height: 100%;
+}
+
+body {
+    font-family: Exo, Times, serif;
+}
+
+.body-secundario {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-secundario {
+    flex: 1;
+}
+
+header {
+    height: 70px;
+    position: relative;
+    width: 100%;
+    align-content: center;
+    background-color: #1E4B6A;
+    background: url(../img/img-menu.png) lightgray 50% / cover no-repeat;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #1E4B6A;
+    color: white;
+    padding: 5px 0;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.rm p {
+    margin: 0;
+}
+
+.rm {    
+    display: flex;
+    margin-left: auto;
+    margin-right: 45px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.logo-transparente {
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+}
+
+.logo {
+    height: 130px;
+    width: 130px;
+    z-index: 1;
+    position: absolute;
+    margin: -65px 45px;
+    border-radius: 0.9375rem;
+    border: 2px solid #FFF;
+}
+
+/* index.html */
+
+.pitch-container {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #14193e;
+    color: white;
+    padding: 30px;
+}
+
+.pitch h1 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.pitch {
+    padding: 15px 40px 25px;
+    background-color: #323968;
+    border-radius: 15px;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 45px 0;
+    box-sizing: border-box;
+}
+
+.main-background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/background-img.png") lightgray 50% / cover no-repeat;
+    filter: blur(3px);
+    padding: 0px;
+}
+
+.main-texto {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    color: #14193e;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    background: rgb(223, 223, 223);
+    margin: 0 auto;
+
+}
+
+.main-texto h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #14193e;
+}
+
+.tabela-detritos {
+    margin-left: 10px;
+    height: 360px;
+    background-color: #fff;
+}
+
+.tabela-detritos, .tabela-detritos th, .tabela-detritos td {
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(160 160 160);
+    width: 3000px;
+}
+
+.p-dividido {  
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* grafico*/
+
+.grafico {
+    max-width: 300px;
+    max-height: 220px;
+    border: 3px solid #14193e;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+/* lista solucao.html */
+
+#mostrar-texto {
+    height: 22px;
+    width: 22px;
+    display: inline;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #323968;
+}
+
+#mostrar-texto:hover {
+    cursor: pointer;
+}
+
+.texto-oculto {
+    background-color: rgb(211, 211, 211);
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+/* FAQ */
+
+.pergunta-faq {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #14193e;
+    padding: 30px;
+}
+
+.pergunta-faq:hover {
+    cursor: pointer;
+}
+
+.pergunta-faq button {
+    margin-left: auto;
+    border: none;
+    font-size: large;
+    color: #1E4B6A;
+}
+
+.pergunta-faq button:hover {
+    cursor: pointer;
+}
+
+.resposta-faq {
+    background-color: #c7c7c7;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* noticias.html */
+
+.container-email {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.email {
+    width: 82%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 2px solid #14193e;
+}
+
+.enviar {
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    background-color: #323968;
+    color: white;
+}
+
+.enviar:hover {
+    transform: scale(1.05);
+    background-color: #14193e;
+    cursor: pointer;
+}
+
+.container-alert {
+    margin: 0 auto;
+    width: 60%;
+}
