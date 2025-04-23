@@ -55,6 +55,7 @@ Assista à apresentação oficial do projeto:
 🏅 **Projeto premiado na Global Solution - FIAP**  
 Um dos projetos mais inovadores em sustentabilidade e tecnologia aplicada à vida marinha.
 
+![](1ESO Fev Larissa.png)
 ---
 
 ## 📬 Contato
